@@ -8,8 +8,26 @@ wget https://github.com/nfc-tools/libnfc/releases/download/libnfc-1.7.0-rc7/libn
 tar -xvzf libnfc-1.7.0-rc7.tar.gz
 cd libnfc-1.7.0-rc7
 ./configure --with-drivers=acr122_usb
+make
+sudo make install
+sudo nfc-list
+```
+If problems
+```
+sudo sh -c "echo /usr/local/lib > /etc/ld.so.conf.d/usr-local-lib.conf"
+sudo ldconfig
+```
 
-
-
-
+If USB problem
+```
+sudo nano /etc/modprobe.d/blacklist-libnfc.conf
+```
+add
+```
+blacklist pn533
+blacklist nfc
+```
+Then
+```
+sudo modprobe -r pn533 nfc
 ```
