@@ -31,3 +31,7 @@ Then
 ```
 sudo modprobe -r pn533 nfc
 ```
+
+## acr120
+
+https://github.com/acshk/acsccid
