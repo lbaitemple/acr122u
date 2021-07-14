@@ -1,6 +1,8 @@
 # acr122u
 
 (https://oneguyoneblog.com/2015/09/16/acr122u-nfc-usb-reader-raspberry-pi/)
+
+(https://github.com/rocky112358/ACS-ACR122U-Tool)
 ```
 sudo apt-get update
 sudo apt-get -y install subversion autoconf debhelper flex libusb-dev libpcsclite-dev libpcsclite1 libccid pcscd pcsc-tools libpcsc-perl libusb-1.0-0-dev libtool libssl-dev cmake checkinstall
