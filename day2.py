@@ -15,6 +15,7 @@ if __name__ == '__main__':
     while True:
         try:
             sentence=input("enter a sentence #:")
+            #language= https://cloud.google.com/speech-to-text/docs/languages
             speak(sentence, language='en')
             # do something time-cosnuming
             time.sleep(0.5)
