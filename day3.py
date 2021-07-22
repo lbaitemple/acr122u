@@ -1,3 +1,5 @@
+# sudo apt-get install swig
+
 #https://github.com/Flowtter/py-acr122u/blob/master/Example/write_and_read.py
 
   
