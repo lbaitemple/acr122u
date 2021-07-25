@@ -34,6 +34,12 @@ Then
 sudo modprobe -r pn533 nfc
 ```
 
+On a raspberry pi audio
+
+```
+sudo apt install mpg321
+```
+
 ## acr120
 
 https://github.com/acshk/acsccid
