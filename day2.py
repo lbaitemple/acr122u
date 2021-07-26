@@ -6,7 +6,8 @@ def speak(sentence, language='en', slow =False):
     # search in the excel file to find name based on id in the excel file
     speech = gTTS(text = sentence, lang = language, slow = False)
     speech.save("text.mp3")
-    subprocess.call(["afplay", "text.mp3"])
+    subprocess.call(["afplay", "text.mp3"]) # on a mac book
+    #subprocess.call(["mpg321", "text.mp3"]) # on a raspberry pi
 
 
 # Press the green button in the gutter to run the script.
