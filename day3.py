@@ -1,4 +1,8 @@
 # sudo apt-get install swig
+#
+# git clone https://github.com/LudovicRousseau/pyscard.git
+#cd pyscard
+#sudo python3 setup.py build_ext install
 
 #https://github.com/Flowtter/py-acr122u/blob/master/Example/write_and_read.py
 
